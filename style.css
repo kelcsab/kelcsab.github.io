@@ -1,0 +1,79 @@
+
+h1{
+  color:orange;
+}
+.container{
+ 
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.newsletter{
+  color:grey;
+  border: solid thin ;#cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  padding-bottom:20px;
+  position:relative;
+}
+.newsletter h3{
+  margin-top:0px;
+}
+.newsletter button{
+  background:#3cb878;
+  border:none;
+  color:white;
+  display:block;
+  width:100%;
+  height:30px;
+  margin-bottom:20px;
+  }
+.newsletter input#email{
+  display: block;
+  width:100%;
+  height:30px;
+  margin-bottom:4px;
+  border: solid thin ;#cfcfcf;
+  border-radius:3px;
+ box-sizing:border-box;
+    }
+.newsletter #accept{
+  position:relative;
+  top:1px;
+  left:2px;
+   }
+.newsletter #closex{
+  position: absolute;
+  top:0px;
+  right:4px;
+}
+#kerdo{
+  background:#3cb878;
+  width:95px;
+  height:80px;
+  border-radius:60px;
+  color:white;
+  text-align:center;
+  font-size:70px;
+  position:fixed;
+  bottom: 10px;
+  right:10px;
+}
+#card-holder{
+  display:flex;
+  justify-content: space-between;
+}
+.card{
+ 
+  background-color:#3cb878;
+  width:180px;
+  text-align:center;
+  color:white;
+    padding: 20px 0;
+  box-shadow:0px 0px 5px 2px grey
+    
+  }
+.card h3{
+  margin-bottom:0px;
+}
